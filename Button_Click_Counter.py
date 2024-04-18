@@ -9,7 +9,7 @@ def doStuff():
     count+=1
 
 
-myButton = Button(root,text="Press Me!",padx=90,pady=10,command=doStuff)
+myButton = Button(root,text="Press Me!",padx=90,pady=10,command=doStuff,fg="black",bg="aqua")
 myButton.grid(row=0,column=0)
 
 
