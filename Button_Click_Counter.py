@@ -1,6 +1,8 @@
 from tkinter import *
 
 root = Tk()
+root.title("Button Click Counter")
+root.geometry("300x100")
 count = 0
 def doStuff():
     global count
